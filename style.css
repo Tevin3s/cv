@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#minha-foto {
+    border: 1.5px solid black;
+    width: 20em;
+    height: 18em;
+    border-radius: 2em;
+
+}
+
+#borda {
+    border: 1.5px solid black;
+    border-radius: 2em;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    margin: 1em auto 1em auto;
+    padding: 1em 2em;
+    -webkit-box-shadow: 10px 10px 142px 70px rgb(58, 58, 58);
+    -moz-box-shadow: 10px 10px 142px 70px rgb(58, 58, 58);
+    box-shadow: 10px 10px 142px 70px rgb(59, 59, 59);
+
+
+
+
+
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    background-color: rgb(112, 112, 112);
+    background-blend-mode: hard-light;
+}
+
+li {
+    text-align: left;
+}
